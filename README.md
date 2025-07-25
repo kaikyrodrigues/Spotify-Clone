@@ -25,7 +25,7 @@ Este projeto é uma recriação da interface do Spotify, feito como prática de 
 
 Você pode visualizar o projeto online através do GitHub Pages (se você tiver ativado):
 
-🔗 [Clique aqui para ver online](https://kaikyrosa.github.io/spotify-clone/)  
+🔗 [Clique aqui para ver online](https://kaikyrodrigues.github.io/Spotify-Clone/)  
 > *(Atualize este link se necessário)*
 
 ---
