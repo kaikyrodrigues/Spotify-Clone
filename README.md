@@ -30,9 +30,7 @@ Este projeto é uma recriação da interface do Spotify, feito como prática de 
 
 ## 👨‍🎓 Projeto Acadêmico
 
-> ⚠️ Este é um **projeto acadêmico**, criado com fins **educacionais** durante meus estudos em **desenvolvimento front-end**. Não possui fins comerciais nem está associado oficialmente à marca Spotify.
-
----
+> ⚠️ Este é um **projeto acadêmico**, criado com fins **educacionais** durante meus estudos em **desenvolvimento front-end**.
 
 ## Autor
 
