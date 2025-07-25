@@ -16,7 +16,6 @@ Este projeto é uma recriação da interface do Spotify, feito como prática de 
 
 - Menu lateral inspirado na navegação do Spotify
 - Área principal com sessões de álbuns/músicas
-- Layout responsivo adaptado para diferentes tamanhos de tela
 - Estilização semelhante à identidade visual da plataforma Spotify
 
 ---
