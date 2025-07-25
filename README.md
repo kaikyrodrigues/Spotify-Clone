@@ -25,7 +25,6 @@ Este projeto é uma recriação da interface do Spotify, feito como prática de 
 
 
 🔗 [Clique aqui para ver online](https://kaikyrodrigues.github.io/Spotify-Clone/)  
-> *(Atualize este link se necessário)*
 
 ---
 
