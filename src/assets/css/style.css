@@ -1,0 +1,485 @@
+@font-face {
+    font-family: 'circular std black';
+    src: url('../fonts/CircularStd-Black.ttf');
+}
+@font-face {
+    font-family: 'circular std bold';
+    src: url('../fonts/CircularStd-Bold.ttf');
+}
+@font-face {
+    font-family: 'circular std book';
+    src: url('../fonts/CircularStd-Book.ttf');
+}
+@font-face {
+    font-family: 'circular std medium';
+    src: url('../fonts/CircularStd-Medium.ttf');
+}
+body{
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+.txt-cinza{
+    color: #b3b3b3;
+}
+.txt-branco{
+    color: #ffffff;
+}
+.fundo-preto{
+    background: #000000;
+}
+.see-all{
+    color: #adadad;
+    font-size: 16px;
+    font-family: 'cirular std bold';
+}
+.icon-menu{
+    width: 32px;
+    height: 32px;
+}
+.componente-item-menu{
+    font-size: 18px;
+    font-family: 'circular std bold';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 32px;
+}
+.top-40{
+    margin-top: 40px;
+}
+.componente-item-menu-secundario{
+    font-size: 18px;
+    font-family: 'circular std book';
+    cursor: pointer;
+}
+.fundo-degrade{
+    background: linear-gradient(180deg, #3333a3 0%, #3333a3 10% , #121212 18% );
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.txt-categoria{
+    font-family: 'circular std bold';
+    font-size: 30px;
+}
+.principal{
+    display: flex;
+    min-height: 100dvh;
+}
+.esquerdo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 80px;
+}
+.meio{
+    display: flex;
+    flex: 3.5;
+    flex-direction: column;
+}
+.direito{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 5px;
+}
+.titulo-direito{
+    display: flex;
+    height: 80px;
+    font-family: 'circular std bold';
+    font-size: 25px;
+    align-items: center;
+    color: #ffffff;
+    gap: 5px;
+
+}
+.friend-activy-colum{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.add-close{
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+.perfil-direito{
+    display: flex;
+    cursor: pointer;
+}
+.friend-activy-colum p{
+    line-height: 1.5;
+    margin: 0;
+}
+.sub-titulo-direito{
+    display: flex;
+    height: 80px;
+    font-family: 'circular std bold';
+    font-size: 18px;
+    align-items: center;
+    color: #b3b3b3;
+    justify-content: center;
+
+}
+.sub-titulo-direito-button{
+    display: flex;
+    color: #b3b3b3;
+    font-family: 'circular std bold';
+    font-size: 18px;
+}
+.div-btn-settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-settings{
+    height: 50px;
+    width: 200px;
+    font-family: 'circular std bold';
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.conjunto-item-menu{
+    display: flex;
+    height: 32px;
+    gap: 20px;
+    cursor: pointer;
+}
+.conjunto-item-menu-colum{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 20px;
+}
+.separator{
+    height: 0.5px;
+    background: #282828;
+    width: 100%;
+}
+.div-flex{
+    display: flex;
+    height: 80px;
+    padding-top: 20px;
+}
+.topo-esquerdo{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    cursor: pointer;
+}
+.topo-direito{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.btn-perfil{
+    width: 189px;
+    height: 40px;
+    background: #000000;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.icon-perfil{
+    height: 34px;
+    width: 34px ;
+}
+.div-perfil{
+    padding: 3px 3px;
+    flex: 1;
+    display: flex;
+}
+.nome-perfil{
+    font-family: 'circular std bold';
+    font-size: 18px;
+    color: #ffffff;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.down-perfil{
+    flex: 1;
+    padding-top: 4px;
+}
+.titulo{
+    display: flex;
+    font-family: 'circular std bold';
+    font-size: 40px;
+    color: #ffffff;
+}
+.albuns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.artistas{
+    display: flex;
+    gap: 30px;
+}
+.artistas-item{
+    display: flex;
+    flex: 1;
+    height: 84px;
+    background-color: rgb(128, 128, 128, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.artistas-item-img{
+    display: flex;
+    flex: 1;
+}
+.artistas-item-titulo{
+    display: flex;
+    flex: 4;
+    align-items: center;
+    font-family: 'circular std bold';
+    font-size: 20px;
+    color: #ffffff;
+}
+.artistas-item2{
+    display: flex;
+    flex: 1;
+    height: 84px;
+    background-color: rgb(128, 128, 128, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.artistas-item-img2{
+    display: flex;
+    flex: 1;
+}
+.artistas-item-titulo2{
+    display: flex;
+    flex: 4;
+    align-items: center;
+    font-family: 'circular std bold';
+    font-size: 20px;
+    color: #ffffff;
+}
+.img-border{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-titulo{
+    display: flex;
+}
+.section-titulo1{
+    display: flex;
+    flex: 1;
+    font-family: 'circular std bold';
+    color: #ffffff;
+    font-size: 30px;
+    align-items: center;
+}
+.section-titulo2{
+    display: flex;
+    flex: 1;
+    color: #b3b3b3;
+    justify-content: flex-end;
+    align-items: end;
+    font-family: 'circular std book';
+}
+.section-albuns{
+    display: flex;
+    gap: 40px;
+}
+.section-albuns1{
+    display: flex;
+    flex: 1;
+    background: #282828;
+    height: 324px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.section-albuns1-div{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    cursor: pointer;
+}
+.section-albuns-titulo-div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-albuns2{
+    display: flex;
+    flex: 1;
+    background: #282828;
+    height: 324px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.section-albuns3{
+    display: flex;
+    flex: 1;
+    background: #282828;
+    height: 324px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.section-albuns4{
+    display: flex;
+    flex: 1;
+    background: #282828;
+    height: 324px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.section-albuns-titulo{
+    color: #ffffff;
+    font-family: 'circular std bold';
+    font-size: 20px;
+}
+.section-albuns-sub{
+    color: #b3b3b3;
+    font-family: 'circular std bold';
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.img-padrao{
+    height: 182px;
+    width: 182px;
+}
+.foto-musica-atual{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.foto-musica-atual img{
+    width: 340px;
+    padding: 2px;
+}
+.container-player{
+    height: 112px;
+    display: flex;
+    background-color: #1b1b1b;
+}
+.titulo-musica{
+    display: flex;
+    flex: 1;
+}
+.play-pause{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+.vol-control{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.vol-control img{
+    width: 32px;
+    cursor: pointer;
+}
+#icon-music-status{
+    width: 100px;
+    cursor: pointer;
+}
+.titulo-musica-item{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.play-it-safe{
+    color: #ffffff;
+    font-family: 'circular std book';
+    font-size: 18px;
+    margin-left: 18px;
+}
+.nome-artista{
+    color: #b3b3b3;
+    font-family: 'circular std book';
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: -18px;
+}
+.icon-music{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon-music img{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+.play-control{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.play-control img{
+    width: 28px;
+    height: auto;
+    cursor: pointer;
+}
+.barra-music{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'circular std bold';
+    gap: 5px;
+}
+#pause-control{
+    width: 40px;
+    height: auto;
+}
+.barra-music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tempo-barra{
+    display: flex;
+    flex: 1;
+}
+.tempo-barra1{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.status-music{
+    display: flex;
+    flex: 8;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, #ffffff 80%, #b3b3b3 80%);
+    border-radius: 20px;
+    cursor: pointer;
+}
